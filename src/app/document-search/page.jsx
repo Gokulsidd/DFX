@@ -12,7 +12,7 @@ const DocumentDashboard = () => {
   const { sections, loading } = useSections(selectedDoc);
 
   return (
-    <div className="flex flex-col md:flex-row h-full p-4 gap-4 bg-gray-500/10">
+    <div className="flex flex-col md:flex-row h-screen p-4 gap-4 bg-gray-500/10">
       {/* Fixed Document Search Section */}
       <Card className="w-full md:w-1/4 min-w-[300px] p-4">
         <DocumentSearch onDocumentSelect={setSelectedDoc} />
