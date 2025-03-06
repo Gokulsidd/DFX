@@ -14,7 +14,7 @@ export default function CollapsibleSection({ title, content, isOpen, onToggle })
       <Button
         variant="teritary"
         size="sm"
-        className="hidden md:flex items-center justify-center h-full w-[40px] border-r relative group "
+        className="hidden md:flex items-center justify-center h-full w-[30px] border-r relative group "
         onClick={onToggle}
       >
         {/* Chevron Icon */}
@@ -23,13 +23,13 @@ export default function CollapsibleSection({ title, content, isOpen, onToggle })
         </div>
 
         {/* Title on Hover */}
-        {/* <div
+        <div
           className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-background px-2 py-1 rounded-md shadow-sm opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10 whitespace-nowrap ${
             isOpen ? 'hidden' : 'block'
           }`}
         >
           {title}
-        </div> */}
+        </div>
       </Button>
 
       {/* Section Content */}

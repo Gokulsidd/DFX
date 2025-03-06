@@ -78,6 +78,36 @@ export default function useSections(selectedDoc) {
           The goal is to educate readers about the rapid growth of AI technologies 
           and their implications in different industries.`,
         },
+        {
+          id: 5,
+          title: "Document Summary",
+          content: `This document provides an overview of AI advancements in 2025.
+          
+          - **Chapter 1**: Introduction to AI Evolution
+          - **Chapter 2**: Deep Learning Breakthroughs
+          - **Chapter 3**: Ethical Considerations in AI
+          - **Chapter 4**: Future Predictions
+      
+          The goal is to educate readers about the rapid growth of AI technologies 
+          and their implications in different industries.This document provides an overview of AI advancements in 2025.
+          
+          - **Chapter 1**: Introduction to AI Evolution
+          - **Chapter 2**: Deep Learning Breakthroughs
+          - **Chapter 3**: Ethical Considerations in AI
+          - **Chapter 4**: Future Predictions
+      
+          The goal is to educate readers about the rapid growth of AI technologies 
+          and their implications in different industries.This document provides an overview of AI advancements in 2025.
+          
+          - **Chapter 1**: Introduction to AI Evolution
+          - **Chapter 2**: Deep Learning Breakthroughs
+          - **Chapter 3**: Ethical Considerations in AI
+          - **Chapter 4**: Future Predictions
+      
+          The goal is to educate readers about the rapid growth of AI technologies 
+          and their implications in different industries.`,
+        },
+        
       ];
 
       setTimeout(() => {

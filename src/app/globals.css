@@ -6,6 +6,8 @@
 
 @layer base {
   :root {
+    
+    --font-open-sans: 'Open Sans', sans-serif;
 
     --background: 0 0% 100%;
 
@@ -118,4 +120,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body{
+  font-family: var(--font-open-sans);
 }

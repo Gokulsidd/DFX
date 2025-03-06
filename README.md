@@ -34,3 +34,43 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+```
+dfx
+├─ components.json
+├─ eslint.config.mjs
+├─ jsconfig.json
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ file.svg
+│  └─ window.svg
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ document-search
+│  │  │  └─ page.jsx
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.js
+│  │  └─ page.js
+│  ├─ components
+│  │  ├─ CollapsibleSection.jsx
+│  │  ├─ DocumentSearch.jsx
+│  │  ├─ SectionContainer.jsx
+│  │  └─ ui
+│  │     ├─ accordion.jsx
+│  │     ├─ button.jsx
+│  │     ├─ card.jsx
+│  │     ├─ input.jsx
+│  │     ├─ skeleton.jsx
+│  │     └─ tooltip.jsx
+│  ├─ hooks
+│  │  └─ useSections.jsx
+│  └─ lib
+│     └─ utils.js
+└─ tailwind.config.mjs
+
+```

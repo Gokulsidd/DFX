@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
   	extend: {
+		boxShadow: {
+			'soft': 'rgba(149, 157, 165, 0.2) 0px 8px 24px;', // Custom soft shadow
+			'deep': '0 8px 20px rgba(0, 0, 0, 0.2)', // Deep dark shadow
+			'neon': '0 0 10px rgba(0, 255, 150, 0.7)', // Neon shadow effect
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
